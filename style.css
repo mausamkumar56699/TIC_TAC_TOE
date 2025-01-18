@@ -42,10 +42,11 @@ body{
     font-size: 8vmin;
     /* font-size: 25px; */
     color: #b8413e;
+    background-color: #ffffc7;
 
 }
 
-.reset-btn{
+#reset-btn{
     /* padding: 15px; */
     padding: 1rem;
     font-size: 1.5rem;
@@ -54,4 +55,34 @@ body{
       /* border-radius: 15px; */
       border-radius: 1rem;
       border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+      background-color: #191913;
+      color: #fff;
+      /* border-radius: 15px; */
+      border-radius: 1rem;
+      border: none;
+}
+
+#msg{
+    color: #dfdf21;
+    font-size:5vmin;
+}
+
+.msg-container{
+    height: 20vmin;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+
+.hide{
+    display: none;
 }
